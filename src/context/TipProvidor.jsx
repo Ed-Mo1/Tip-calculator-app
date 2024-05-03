@@ -17,6 +17,8 @@ const TipProvidor = ({ children }) => {
     setBill(0);
     setPeople(0);
     setTip(0);
+    setTipAmount(0);
+    setTotal(0);
   };
   return (
     <TipContext.Provider
